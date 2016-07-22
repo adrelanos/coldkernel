@@ -58,6 +58,7 @@ sudo make install-deb
 sudo cp paxctld.conf /etc/paxctld.conf
 sudo paxctld -d
 sudo systemctl enable paxctld
+sudo update-grub
 sudo reboot
 ```
 
